@@ -1,5 +1,3 @@
-"#!/bin/bash" 
-"cd server" 
-"npm install" 
-"npm run build" 
-"node index.ts" 
+#!/usr/bin/env bash
+# Inicia el servidor usando el código compilado en dist/
+node dist/index.js
